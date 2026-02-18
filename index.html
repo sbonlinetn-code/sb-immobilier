@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>SB agence immobilière</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+    header {
+      background: #1e3a8a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1568605114967-8130f3a36994') center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .container {
+      padding: 30px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card .content {
+      padding: 15px;
+    }
+    footer {
+      background: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    .btn {
+      display: inline-block;
+      background: #1e3a8a;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SB agence immobilière</h1>
+  <nav>
+    <a href="#home">Accueil</a>
+    <a href="#biens">Biens</a>
+    <a href="#about">À propos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  Votre partenaire immobilier de confiance
+</div>
+
+<div class="container" id="biens">
+  <h2>Nos biens immobiliers</h2>
+  <div class="cards">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1572120360610-d971b9b78825">
+      <div class="content">
+        <h3>Appartement à vendre</h3>
+        <p>3 chambres – Centre-ville</p>
+        <a class="btn" href="#contact">Nous contacter</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+      <div class="content">
+        <h3>Villa à louer</h3>
+        <p>Avec jardin et garage</p>
+        <a class="btn" href="#contact">Nous contacter</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="about">
+  <h2>À propos</h2>
+  <p>
+    SB agence immobilière vous accompagne dans l'achat, la vente et la location
+    de biens immobiliers avec professionnalisme et transparence.
+  </p>
+</div>
+
+<div class="container" id="contact">
+  <h2>Contact</h2>
+  <p>📞 Téléphone / WhatsApp: <strong>+216 XX XXX XXX</strong></p>
+  <p>📍 Tunisie</p>
+  <a class="btn" href="https://wa.me/216XXXXXXXX">Nous écrire sur WhatsApp</a>
+</div>
+
+<footer>
+  © 2026 SB agence immobilière – Tous droits réservés
+</footer>
+
+</body>
+</html>
